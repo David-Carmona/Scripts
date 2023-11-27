@@ -1,0 +1,8 @@
+prefix=/home/david/traxas_ws/install
+
+Name: suitesparse
+Description: Description of suitesparse
+Version: 4.2.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lspqr -lcholmod -lccolamd -lamd -lbtf -lcamd -lcolamd -lcxsparse -lklu -lldl -lrbio -lsuitesparseconfig -lumfpack -llapack -lblas
+Requires: 

@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/david/traxas_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3d2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3d2d.dir/build.make CMakeFiles/cmTC_a3d2d.dir/build
+make[1]: Entering directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3d2d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a3d2d.dir/CheckSymbolExists.c.o   -c /home/david/traxas_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a3d2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3d2d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a3d2d.dir/CheckSymbolExists.c.o  -o cmTC_a3d2d 
+CMakeFiles/cmTC_a3d2d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a3d2d.dir/build.make:97: recipe for target 'cmTC_a3d2d' failed
+make[1]: *** [cmTC_a3d2d] Error 1
+make[1]: Leaving directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a3d2d/fast' failed
+make: *** [cmTC_a3d2d/fast] Error 2
+
+File /home/david/traxas_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/david/traxas_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db880/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db880.dir/build.make CMakeFiles/cmTC_db880.dir/build
+make[1]: Entering directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db880.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_db880.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db880
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db880.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_db880.dir/CheckFunctionExists.c.o  -o cmTC_db880 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_db880.dir/build.make:97: recipe for target 'cmTC_db880' failed
+make[1]: *** [cmTC_db880] Error 1
+make[1]: Leaving directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db880/fast' failed
+make: *** [cmTC_db880/fast] Error 2
+
+
+Determining if the include file pgm.h exists failed with the following output:
+Change Dir: /home/david/traxas_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ff2b/fast"
+make[1]: Entering directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8ff2b.dir/build.make CMakeFiles/cmTC_8ff2b.dir/build
+make[2]: Entering directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ff2b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8ff2b.dir/CheckIncludeFile.cxx.o -c /home/david/traxas_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/david/traxas_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: pgm.h: No such file or directory
+ #include <pgm.h>
+          ^~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_8ff2b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8ff2b.dir/CheckIncludeFile.cxx.o' failed
+make[2]: *** [CMakeFiles/cmTC_8ff2b.dir/CheckIncludeFile.cxx.o] Error 1
+make[2]: Leaving directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ff2b/fast' failed
+make[1]: *** [cmTC_8ff2b/fast] Error 2
+make[1]: Leaving directory '/home/david/traxas_ws/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/CMakeFiles/suitesparse_src"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/CMakeFiles/suitesparse_src.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/CMakeFiles/suitesparse_src-complete.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-install.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-mkdir.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-download.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-update.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-patch.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-configure.rule"
+		},
+		{
+			"file" : "/home/david/traxas_ws/build/suitesparse/suitesparse/suitesparse_src-prefix/src/suitesparse_src-stamp/suitesparse_src-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"suitesparse_src"
+		],
+		"name" : "suitesparse_src"
+	}
+}

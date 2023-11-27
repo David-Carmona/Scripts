@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/david/traxas_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/david/traxas_ws/src/hector_navigation/hector_costmap/include/**",
+        "/home/david/traxas_ws/src/hector_navigation/hector_elevation_mapping/include/**",
+        "/home/david/traxas_ws/src/hector_navigation/hector_elevation_visualization/include/**",
+        "/home/david/traxas_ws/src/hector_navigation/hector_exploration_planner/include/**",
+        "/home/david/traxas_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/david/traxas_ws/src/hector_navigation/hector_gps_calibration/include/**",
+        "/home/david/traxas_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/david/traxas_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/david/traxas_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/david/traxas_ws/src/hector_navigation/hector_path_follower/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

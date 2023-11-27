@@ -1,0 +1,8 @@
+prefix=/home/david/traxas_ws/devel
+
+Name: system_suitesparse
+Description: Description of system_suitesparse
+Version: 4.2.1
+Cflags: -I/usr/include/suitesparse
+Libs: -L${prefix}/lib /usr/lib/x86_64-linux-gnu/libspqr.so /usr/lib/x86_64-linux-gnu/libcholmod.so /usr/lib/x86_64-linux-gnu/libccolamd.so /usr/lib/x86_64-linux-gnu/libcamd.so /usr/lib/x86_64-linux-gnu/libcolamd.so /usr/lib/x86_64-linux-gnu/libamd.so /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so /usr/lib/x86_64-linux-gnu/librt.so
+Requires: 
